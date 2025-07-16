@@ -82,16 +82,23 @@ WSGI_APPLICATION = 'EventBookingProject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+DATABASENAME = ''
+DATABASEUSER = ''
+DATABASEPASSWORD = ''
+DATABASEHOST = ''
+DATABASEPORT = ''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'EventBookingDB',
-        'USER': 'root',
-        'PASSWORD': 'vasanth@2468',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': DATABASENAME,
+        'USER': DATABASEUSER,
+        'PASSWORD': DATABASEPASSWORD,
+        'HOST': DATABASEHOST,
+        'PORT': DATABASEPORT,
     }
 }
+
 DEFAULT_FROM_EMAIL= 'vasanths2468@gmail.com'
 AUTH_USER_MODEL = 'EventBookingapp.CustomUser'
 

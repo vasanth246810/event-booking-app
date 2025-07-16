@@ -21,7 +21,7 @@ Admins:
 Technology Stack:
 -----------------
 - Python 3.12
-- Django 4.x
+- - Django 5.2.4
 - MySQL
 - Bootstrap 5
 - SweetAlert2
